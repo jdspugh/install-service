@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import{spawn}from'child_process'
 
 const c=spawn(`f=\`find "$(pwd)" -name *.service\`;
