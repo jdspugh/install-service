@@ -1,0 +1,9 @@
+{
+  "name": "@jdsp/install-service",
+  "version": "1.0.0",
+  "description": "Install a linux service file from the current directory into the system directory and enable and restart the service.",
+  "main": "install-service.mjs",
+  "author": "Jonathan Pugh",
+  "email": "jdspugh@gmail.com",
+  "license": "MIT"
+}
