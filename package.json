@@ -2,8 +2,14 @@
   "name": "@jdsp/install-service",
   "version": "1.0.0",
   "description": "Install a linux service file from the current directory into the system directory and enable and restart the service.",
+  "keywords": ["linux", "install", "service"],
   "main": "install-service.mjs",
   "author": "Jonathan Pugh",
   "email": "jdspugh@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdspugh/install-service"
+  },
+  "os": ["linux"]
 }
