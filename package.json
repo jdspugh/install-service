@@ -1,6 +1,6 @@
 {
   "name": "@jdsp/install-service",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "Install a linux service file from the current directory into the system directory and enable and restart the service.",
   "keywords": ["linux", "install", "service"],
   "bin": {"install-service":"install-service.js"},

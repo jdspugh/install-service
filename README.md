@@ -1,14 +1,20 @@
 # Installation
 
-Install this npm package globally.
+Install this npm package globally:
 
 ```
 $ npm install --global @jdsp/install-service
 ```
 
+Update it using:
+
+```
+$ npm update --global @jdsp/install-service
+```
+
 # Usage
 
-And then use it to install Linux services from service files located in non-system directories. It also enables and restarts the service and shows you the installation logs. Your service file can have any name as long it has the postfix ".service" and it will be found and installed.
+Then use it to install Linux services from service files located in non-system directories. The command will symlink the service files to the correct system location (/etc/systemd/system/). It will also enable and restart the services and show you the installation logs. Your service files can have any name as long they have the postfix ".service" and they will be found and installed e.g.:
 
 ```
 $ ls
